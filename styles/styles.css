@@ -52,3 +52,44 @@ body{
 .header__menu li a:hover{
     color: #63c6ae;
 }
+
+.hero{
+    height: 80vh;
+    padding: 40px 20px;
+    background-image: url(../img/herobg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero__title{
+    background-color: #63c6ae;
+    padding: 30px 20px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero__text{
+    background-color: #242a2c;
+    margin: 5px 30px 35px;
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.hero__btn{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+}
