@@ -12,6 +12,31 @@ body{
     padding-right: 1em;
 }
 
+.button{
+    padding: 15px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    margin-right: 15px;
+    display: inline-block;
+    transition: background 0.5s;
+}
+
+.button:hover{
+    background-color: #929da5;
+}
+
+.button-primary{
+    background-color: #63c6ae;
+}
+
+.button-secondary{
+    background-color: #455357;
+}
+
 .header{
     background: #fff;
     width: 100%;
@@ -150,4 +175,23 @@ body{
 .peopleCards__text{
     font-size: 14px;
     color: #929da5;
+}
+
+.content{
+    background-color: #f8f9f9;
+    padding: 20px 0 80px;
+    border-top: 1px solid #e3e3e3;
+}
+
+.content__title{
+    font-weight: 400;
+    color: #737c85;
+    padding-top: 40px;
+    font-size: 21px;
+}
+
+.content__text{
+    color: #929da5;
+    font-size: 14px;
+    word-spacing: 3px;
 }
