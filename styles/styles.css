@@ -2,6 +2,14 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.conteiner{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .header{
@@ -96,4 +104,35 @@ body{
     font-weight: 600;
     color: white;
     border-radius: 5px;
+}
+
+.peopleCards{
+    margin-top: 2.5em;
+}
+
+.peopleCards__image{
+    width: 100%;
+}
+
+.peopleCards__avatar{
+    margin: -55px auto;
+    width: 88px;
+    height: 88px;
+    overflow: hidden;
+}
+
+.peopleCards__content{
+    padding: 40px 25px 10px; 
+    text-align: center;
+    border-left: 1px solid #dbe1e7;
+}
+
+.peopleCards__title{
+    font-size: 20px;
+    color: #737c85;
+}
+
+.peopleCards__text{
+    font-size: 14px;
+    color: #929da5;
 }
