@@ -110,6 +110,20 @@ body{
     margin-top: 2.5em;
 }
 
+.peopleCards__card:hover{
+    outline: 5px solid #63c6ae;
+    outline-offset: -5px;
+}
+
+.peopleCards:hover .peopleCards__avatar img{
+    transform: translateY(-50%);
+}
+
+.peopleCards:hover .peopleCards__text, 
+.peopleCards:hover .peopleCards__title{
+    color: #63c6ae;
+}
+
 .peopleCards__image{
     width: 100%;
 }
@@ -130,6 +144,7 @@ body{
 .peopleCards__title{
     font-size: 20px;
     color: #737c85;
+    font-weight: normal;
 }
 
 .peopleCards__text{
