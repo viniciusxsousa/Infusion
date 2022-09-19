@@ -5,6 +5,10 @@ body{
     line-height: 1.5;
 }
 
+img{
+    max-width: 100%;
+}
+
 .conteiner{
     margin-left: auto;
     margin-right: auto;
@@ -215,4 +219,18 @@ body{
 
 .lastesArticles__thubs img{
     width: 100%;
+}
+
+.laptopSlider{
+    background-color: #242a2c;
+    padding: 124px 0 100px;
+    overflow: auto;
+}
+
+.laptopSlider__show{
+    white-space: nowrap;
+}
+
+.laptopSlider__show figure{
+    display: inline;
 }
