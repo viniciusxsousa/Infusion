@@ -279,3 +279,38 @@ img{
     text-decoration: none;
     
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .header{
+        position: fixed;
+    }
+
+    .header__title{
+        width: 26%;
+        box-sizing: border-box;
+        text-align: right;
+    }
+
+    .header__button{
+        display: none;
+    }
+
+    .header__menu{
+        width: 74%;
+        clear: none;
+        float: left;
+        max-width: 800px;
+    }
+
+    .header__menu ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header__menu li{
+        background-color: white;
+        flex-grow: 1;
+    }
+
+}
