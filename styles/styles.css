@@ -320,4 +320,14 @@ img{
         gap: 20px;
     }
 
+    .content .conteiner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px
+    }
+
+    .lastesArticles__thubs{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
 }
