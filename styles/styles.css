@@ -14,6 +14,7 @@ img{
     margin-right: auto;
     padding-left: 1em;
     padding-right: 1em;
+    max-width: 920px;
 }
 
 .button{
@@ -311,6 +312,12 @@ img{
     .header__menu li{
         background-color: white;
         flex-grow: 1;
+    }
+
+    .peopleCards__conteiner{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
     }
 
 }
