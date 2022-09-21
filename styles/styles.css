@@ -47,6 +47,10 @@ img{
     width: 100%;
 }
 
+.js .header{
+    position: fixed;
+}
+
 .header__title{
     display: block;
     background-color: #63c6ae;
@@ -58,6 +62,14 @@ img{
     color: #fff;
     text-transform: uppercase;
     float: left;
+}
+
+.header__button{
+    float: right;
+    margin: 1.5em;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
 }
 
 .header__menu{
