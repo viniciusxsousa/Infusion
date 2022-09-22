@@ -76,6 +76,10 @@ img{
     clear: left;
 }
 
+.js .header__menu{
+    transition: max-height 1s;
+}
+
 .header__menu ul{
     margin: 0;
     padding: 0;
