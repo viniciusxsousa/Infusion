@@ -12,4 +12,11 @@
         maxWidth: 1024
     })
 
+    var carroselImg = new Carrosel({
+        conteiner: '.laptopSlider .laptopSlider__show',
+        itens: 'figure',
+        btnNext: '.next',
+        btnPrev: '.prev'
+    });
+
 })();
