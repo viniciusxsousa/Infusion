@@ -49,6 +49,86 @@ img{
 
 .js .header{
     position: fixed;
+    z-index: 10;
+}
+
+.js .laptopSlider{
+    overflow: hidden;
+}
+
+.js .laptopSlider__show{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 950px;
+    color: white;
+    font-size: 30px;
+}
+
+.js .laptopSlider figure{
+    opacity: 0;
+    width: 100%;
+    top: 0;
+    left: 0;    
+    position: absolute;
+    transition: 0.5s opacity;
+}
+
+.js .laptopSlider .show{
+    opacity: 1;
+    position: static;
+}
+
+.js .laptopSlider .prev, .js .laptopSlider .next{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.js .laptopSlider .prev{
+    left: 20px
+}
+
+.js .laptopSlider .next{
+    right: 20px;
+}
+
+.js .quotes__slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 950px;
+    color: white;
+    font-size: 25px;
+}
+
+.js .quotes__slider figure{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.js .quotes__slider figure.show{
+    position: relative;
+    opacity: 1;
+    top: 0;
+    left: 0;
+}
+
+.js .quotes__slider .prev, .js .quotes__slider .next{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.js .quotes__slider .prev{
+    left: -20px;
+}
+
+.js .quotes__slider .next{
+    right: -20px;
 }
 
 .header__title{
