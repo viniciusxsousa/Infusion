@@ -14,3 +14,6 @@ Este projeto tem como objetivo explorar e aplicar conceitos fundamentais de HTML
 
 
 ### :desktop_computer: Previa
+
+https://github.com/viniciusxsousa/Infusion/assets/81489425/f8ef48bc-93f5-4d9e-ab03-0afbfb1ef2ff
+
